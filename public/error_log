@@ -1,0 +1,14 @@
+[10-Mar-2022 07:49:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Illuminate\Support\Collection::getArrayableItems() in /home/onetwofive/admin.121five.com/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:31
+Stack trace:
+#0 /home/onetwofive/admin.121five.com/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Illuminate\Support\Collection->__construct(Array)
+#1 /home/onetwofive/admin.121five.com/vendor/laravel/framework/src/Illuminate/Support/Traits/ReflectsClosures.php(49): collect(Array)
+#2 /home/onetwofive/admin.121five.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/ReportableHandler.php(62): Illuminate\Foundation\Exceptions\ReportableHandler->firstClosureParameterTypes(Object(Closure))
+#3 /home/onetwofive/admin.121five.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(234): Illuminate\Foundation\Exceptions\ReportableHandler->handles(Object(Error))
+#4 /home/onetwofive/admin.121five.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/Handl in /home/onetwofive/admin.121five.com/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 31
+[10-Mar-2022 07:49:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Illuminate\Support\Collection::getArrayableItems() in /home/onetwofive/admin.121five.com/vendor/laravel/framework/src/Illuminate/Collections/Collection.php:31
+Stack trace:
+#0 /home/onetwofive/admin.121five.com/vendor/laravel/framework/src/Illuminate/Collections/helpers.php(15): Illuminate\Support\Collection->__construct(Array)
+#1 /home/onetwofive/admin.121five.com/vendor/laravel/framework/src/Illuminate/Support/Traits/ReflectsClosures.php(49): collect(Array)
+#2 /home/onetwofive/admin.121five.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/ReportableHandler.php(62): Illuminate\Foundation\Exceptions\ReportableHandler->firstClosureParameterTypes(Object(Closure))
+#3 /home/onetwofive/admin.121five.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(234): Illuminate\Foundation\Exceptions\ReportableHandler->handles(Object(Error))
+#4 /home/onetwofive/admin.121five.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/Handl in /home/onetwofive/admin.121five.com/vendor/laravel/framework/src/Illuminate/Collections/Collection.php on line 31
